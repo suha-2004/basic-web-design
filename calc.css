@@ -1,0 +1,35 @@
+body{
+    height:100vh;
+    background-color: rgb(204, 170, 236);
+   background-image: url("pic3.jpeg");
+   background-size: contain;
+   backdrop-filter: blur(10px);
+}
+
+.tr{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+   
+  
+}
+.y{
+    padding:5px;
+    color: rgb(24, 1, 1);
+    background-color: rgb(194, 252, 160);
+    width:450;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     border:2px solid rgb(185, 66, 240);
+     border-radius: 20px;
+}
+form{
+     border:2px solid rgb(185, 66, 240);
+     padding:25px;
+    border-radius: 20px;
+    background-color: rgb(241, 190, 239);
+    border-width: 10;
+}

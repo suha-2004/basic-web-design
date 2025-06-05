@@ -1,0 +1,153 @@
+h3{
+    color:blueviolet;
+    
+}
+.heading1{
+    color:white;
+    font-size: 30;
+    width: 15;
+}
+body{
+    font-style: italic;
+}
+body{
+   background-color:background: #EEAECA;
+background:white
+   
+}
+.navbar ul{
+    display:flex;
+    justify-content:space-around;
+    color: black;
+}
+.abc{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    background-color: rgb(189, 226, 226);
+}
+.home1{
+     display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    color:brown;
+    background-color: rgb(224, 208, 240);
+}
+h1:hover{
+    color:rgb(238, 233, 243);
+    transition:3s;
+    cursor:pointer;
+}
+.heading3{
+    font-style: normal;
+}
+.hai{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    color:rgb(48, 9, 85);
+    background-color:bisque
+}
+.kl{
+    background-color:rgb(210, 213, 236);
+    padding:17px;
+}
+.lm{
+    background-color:rgb(250, 200, 238);
+    padding:8px;
+}
+*{
+    scroll-behavior: smooth;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 1500;
+    background-color: rgb(194, 236, 184);
+    height:40;
+}
+.mn{
+    background-color:rgb(211, 207, 247);
+    padding:11px;
+    color: rgb(124, 124, 245);
+    font-style:italic;
+}
+.cd{
+    width:350;
+    height:345;
+}
+.sc{
+    width:1;
+    height:1;
+}
+@keyframes MoveUpDown{
+    0%{
+        
+        transform: scale(100%);
+        color: blueviolet;
+        transform:rotate(0deg)
+        }50%{
+            transform: scale(150%);
+             color: rgb(68, 12, 121);
+             transform:rotate(10deg)
+        }
+            100%{
+
+   color: rgb(223, 100, 136);
+   transform:rotate(0deg)
+        }
+    }
+.heading1{
+         animation:MoveUpDown 5s infinite;
+}
+@keyframes MoveUpDown1{
+    0%{
+        
+        transform: scale(100%);
+        color: blueviolet;
+        
+        }50%{
+            transform: scale(150%);
+             color: rgb(68, 12, 121);
+            
+        }
+            100%{
+
+   color: rgb(223, 100, 136);
+  
+        }
+    }
+.heading1{
+         animation:MoveUpDown 5s infinite;
+}
+
+.sc{
+    animation: MoveUpDown1 5s infinite;
+}
+@keyframes MoveUpDown2{
+    0%{
+        
+        
+        transform: rotate(0deg);
+        color: blueviolet;
+        
+        }50%{
+            transform: rotate(25deg);
+             color: rgb(68, 12, 121);
+            
+        }
+            100%{
+transform: rotate(0deg);
+   color: rgb(223, 100, 136);
+  
+        }
+    }
+    .cd{
+    animation: MoveUpDown2 30s infinite;
+}
